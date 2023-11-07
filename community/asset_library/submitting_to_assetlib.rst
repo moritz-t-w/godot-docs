@@ -37,6 +37,8 @@ are a few requirements your asset needs to meet to be approved.
 * No **submodules**, or any submodules must be non-essential. GitHub
   does not include submodules in the downloaded ZIP file, so if the
   asset needs the contents of the submodule, your asset won't work.
+  Consider using subtrees instead. Subtrees are contained in the zip
+  file because they become part of the source code.
 
 * The **license** needs to be correct. The license listed on the asset
   library must match the license in the repository. The repo MUST
